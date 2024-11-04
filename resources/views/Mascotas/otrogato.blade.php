@@ -1,0 +1,1 @@
+Este es mi vista de mi otro gato {{ $elnombre }} {{ $elapellido }}
