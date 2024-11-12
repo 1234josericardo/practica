@@ -93,13 +93,6 @@ Route::get('/insert', function () {
     return $computer;
     */
 
-
-
-
-
-
-
-
     //modificar
     /*
     $computer = Computer::where('model','Pavilion')->first();
@@ -108,11 +101,6 @@ Route::get('/insert', function () {
     return $computer;
     */
 
-
-
-
-
-
     //multiples registros
     /*
     $computer = Computer::all();
@@ -120,39 +108,12 @@ Route::get('/insert', function () {
     */
 
     
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     //mostrar una parte de los registros
     /*
     $computer = Computer::where('id','>=',2)->get();
     return $computer;
     */
-
 
    
     //mostrar una parte y ordenar
@@ -168,17 +129,15 @@ Route::get('/insert', function () {
     */
 
 
-
-
-
     //SE ESTABLECE UN FORMATO PARA EL DESPLIEGUE DE FECHA
-
+    /*
     $computer = Computer::find(1);
 
     //EJEMPLO 1 - despliega la fecha en el formato que le indiquemos
     //return $computer->published_at->format('d-m-Y');
     //EJEMPLO 2 - despliega cuanto tiempo pasó despues de publicado
     return $computer->published_at->diffForHumans();
+    */
 
 
 

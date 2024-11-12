@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuadro con Estilo</title>
+    <title>Mascotas</title>
     <style>
         table {
-            width: 50%;
+            width: 100%;
             border-collapse: collapse;
-            margin: 20px auto;
+            margin: 20% auto;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             font-family: Arial, sans-serif;
         }
@@ -45,7 +45,7 @@
         }
         ul li a {
             text-decoration: none;
-            color: #4CAF50;
+            color: #0e8612;
             font-weight: bold;
         }
         ul li a:hover {
